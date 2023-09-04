@@ -1,0 +1,15 @@
+web mail login link:
+https://webmail-sh032.webhostingservices.com/webmaillogout.cgi
+id: info@theinnovationclasses.com
+pass: Sanju@853202
+
+id2: contact@theinnovationclasses.com
+pass: Sanju@853202
+
+bluehost log in credencial
+link: https://my.bluehost.in/hosting/app
+id: theinnovationclasses.com
+pass: Sanju@853202
+
+
+

@@ -1,0 +1,16 @@
+[11-Jul-2023 10:24:50 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'heinnova_admission.contact' doesn't exist in /home2/heinnova/public_html/contactRegister.php:17
+Stack trace:
+#0 /home2/heinnova/public_html/contactRegister.php(17): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home2/heinnova/public_html/contactRegister.php on line 17
+[11-Jul-2023 10:26:24 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/heinnova/public_html/contactRegister.php:1) in /home2/heinnova/public_html/contactRegister.php on line 30
+[11-Jul-2023 10:26:42 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/heinnova/public_html/connection.php:31) in /home2/heinnova/public_html/register.php on line 67
+[11-Jul-2023 10:34:55 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/heinnova/public_html/connection.php:16) in /home2/heinnova/public_html/contactRegister.php on line 29
+[11-Jul-2023 10:39:04 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/heinnova/public_html/print.php:13
+Stack trace:
+#0 /home2/heinnova/public_html/print.php(13): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'admission')
+#1 {main}
+  thrown in /home2/heinnova/public_html/print.php on line 13
+[11-Jul-2023 10:40:05 America/Boise] PHP Parse error:  syntax error, unexpected identifier "form" in /home2/heinnova/public_html/print.php on line 2
+[11-Jul-2023 10:41:27 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/heinnova/public_html/connection.php:16) in /home2/heinnova/public_html/contactRegister.php on line 29
+[11-Jul-2023 10:45:24 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/heinnova/public_html/connection.php:16) in /home2/heinnova/public_html/register.php on line 67
